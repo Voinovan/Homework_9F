@@ -1,0 +1,37 @@
+﻿package proiect;
+
+public class InformaticaBrad {
+
+	public static void main(String[] args) {
+		char ch;
+ch='$';
+		char c1 ;
+c1='@';
+        char c2 ;
+c2='!';
+
+System.out.format("%10c%n",ch);
+System.out.format("%9c%c%c%n",ch,ch,c1);
+System.out.format("%8c%c%c%c%c%n",ch,c1,ch,ch,c1);
+System.out.format("%7c%c%c%c%c%c%c%n",ch,c1,ch,c1,ch,c1,ch);
+System.out.format("%6c%c%c%c%c%c%c%c%c%n",c1,ch,ch,c1,ch,c1,ch,c1,ch);
+System.out.format("%6c%c%c%c%c%c%c%c%c%c%c%n",ch,ch,c1,ch,ch,c1,ch,c1,ch,c1,ch);
+System.out.format("%9c%c%c%n",c2,c2,c2);
+System.out.println("MerryChristmas");
+	}
+
+}
+
+
+
+
+
+
+         $
+        $$@
+       $@$$@
+      $@$@$@$
+     @$$@$@$@$
+     $$@$$@$@$@$
+        !!!
+MerryChristmas
